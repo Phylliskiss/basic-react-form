@@ -26,6 +26,7 @@ class ClassForm extends Component {
   render() {
     return (
       <div>
+        <h1>Class Form</h1>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="name"> Name</label>
           <input type="text" name="name" onChange={this.handleChange}/>
